@@ -1,0 +1,202 @@
+/*
+
+ p color  =  #8f8f8f
+
+  font-family: "Montserrat-Black";
+
+  color  =  #ff4c68
+
+  color: #ef8172;
+
+   color  =  #fff
+
+   font-family: "Ubuntu";
+
+   font-family: "Montserrat-Light";
+
+
+
+
+                                                                                                                                                                                         */
+/*   -----------------------------------------------------------------------------------------------------------------------------------   */
+
+
+body{
+  margin: 0;
+}
+h1{
+
+  margin: 0;
+}
+
+
+/* title section*/
+
+#title{
+  text-align: center;
+  background-color: #ff4c68;
+
+}
+
+
+.navbar{
+
+  margin-bottom: 4rem;
+}
+.title-width{
+  text-align:center;
+  padding: 2% 12%;
+ }
+
+  .font{
+    color: #fff;
+    text-align: left;
+    line-height: 1.5;
+    font-family: "Montserrat-bold";
+    font-size: 3.5rem;
+  }
+ .iphone-image{
+   width: 70%;
+   position: relative;
+
+   transform: rotate(25deg)
+
+ }
+ .download-btn {
+   margin: 3rem 0.7rem ;
+ }
+.div-width{
+  width: 70%;
+}
+
+  /* function section*/
+
+
+  #function{
+    background-color: #fff;
+    padding: 9% 10% 0;
+    text-align: center;
+    position: relative;
+     bottom: 10rem;
+  }
+
+   .function-font{
+     font-family: "Montserrat-bold";
+   }
+
+  .function-font-p{
+    color: #8f8f8f;
+  }
+
+  .function-icon{
+    color: #ef8172;
+  }
+
+ .function-icon:hover{
+     color: #ff4c68;
+ }
+  /* slide section*/
+
+
+  #slide{
+    text-align: center;
+    padding: 7% 12%;
+    background-color: #ef8172;
+  }
+
+  .slide-font{
+     font-family: "Montserrat-bold";
+     color: #fff;
+  }
+  .dog-image{
+    margin: 3rem auto 1rem;
+    width: 10%;
+    border-radius: 100%;
+  }
+
+  /* slide-image section*/
+
+  #slide-image{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+
+  .slide-image-size{
+    margin: auto 2rem;
+  }
+
+  .slide-font-p{
+    color: #fff;
+  }
+
+/* plans section*/
+
+#plans{
+  text-align: center;
+  padding: 5% 10%;
+}
+.plans-font-p{
+  color: #8f8f8f;
+  line-height: 2;
+  margin-bottom: 4rem;
+}
+
+.plans-font{
+   font-family: "Ubuntu";
+   font-size: 3rem;
+}
+
+/* download section*/
+#download{
+  font-family: "Montserrat-bold";
+  padding: 7% 12%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.download-font{
+  color: #fff;
+  margin: 2rem;
+}
+.d-btn{
+  margin: auto 0.7rem;
+}
+
+/* footer section*/
+#footer{
+  padding: 5% 7%;
+  text-align: center;
+  background-color: #fff;
+
+}
+.footer-font-p{
+  color: #8f8f8f;
+}
+
+.social-icon{
+  margin-left: 0.4rem;
+}
+
+
+@media (max-width: 1000px ){
+
+      .slide-image-size{
+        padding-top: 2rem; 
+      }
+
+     .div-width{
+       width: 100%;
+     }
+      .font{
+        text-align: center;
+      }
+    .iphone-image{
+      position: static;
+      transform: rotate(0);
+    }
+    #function{
+      position: static;
+      padding: 5rem;
+    }
+}
